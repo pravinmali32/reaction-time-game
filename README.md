@@ -1,12 +1,24 @@
-# React + Vite
+# 🕹️ Reaction Time Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application where users can test their reflexes, submit their scores, and view a global leaderboard — built with **FastAPI**, **React**, and **SQLite**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎯 **Real-time Reaction Testing**: Measure how fast a user reacts to visual cues.
+- 🔐 **User Authentication**: Secure login system using token-based authentication.
+- 📈 **Leaderboard System**: Submit scores and see how you rank against other players.
+- 🌐 **RESTful API**: FastAPI backend to handle user data, scores, and leaderboard retrieval.
+- 💾 **Database Integration**: SQLite database for persistent storage via SQLAlchemy ORM.
+- 💡 **Responsive Frontend**: Built with React, HTML, CSS, and JavaScript for smooth gameplay and score tracking.
+- 🔒 **Secure & Validated**: APIs include input validation and protection against common vulnerabilities.
+- 🧱 **Modular Architecture**: Follows best practices for scalability, maintainability, and clean code structure.
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Layer       | Technology           |
+|-------------|----------------------|
+| Frontend    | React, HTML, CSS, JS |
+| Backend     | FastAPI (Python)     |
+| API Style   | RESTful              |
+| Auth        | Token-Based Auth     |
+| Database    | SQLite + SQLAlchemy  |
